@@ -2,6 +2,8 @@
 
 ## NEW FEATURES & IMPROVEMENTS
 
+* You can now do async rendering of Plotly plots with Shiny, using the promises package. See (TODO: URL).
+
 ## CHANGES
 
 * The `elementId` field is no longer populated, which fixes the "Ignoring explicitly provided widget ID" warning in shiny applications (see #985).

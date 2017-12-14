@@ -42,7 +42,8 @@ Imports:
     lazyeval (>= 0.2.0),
     crosstalk,
     purrr,
-    data.table
+    data.table,
+    promises
 Suggests:
     MASS,
     maps,
@@ -67,7 +68,8 @@ Suggests:
     IRdisplay
 Remotes:
   tidyverse/ggplot2,
-  r-spatial/sf
+  r-spatial/sf,
+  rstudio/promises
 LazyData: true
 RoxygenNote: 6.0.1
 Roxygen: list(markdown = TRUE)
